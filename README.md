@@ -17,10 +17,11 @@ The "Diabetes Prediction" project aims to develop a model that can predict wheth
 - **Feature Scaling:** As part of the preprocessing pipeline, the project utilizes the StandardScaler from Scikit-learn to standardize the feature values. Standardization ensures that all features have a mean of 0 and a standard deviation of 1, which can help improve the performance and convergence of certain machine learning algorithms.
 
 - **Support Vector Machine Model:** The project employs Support Vector Machines (SVM), a powerful supervised learning algorithm, to build the classification model. SVM is known for its ability to handle high-dimensional data and nonlinear relationships. The Scikit-learn library provides an implementation of SVM that is utilized in this project.
-- Here is the link for the streamlit application of the model https://roopdpa.streamlit.app/
 
 - **Model Evaluation:** To assess the performance of the SVM model, the project employs various evaluation metrics such as accuracy, precision, recall, and F1-score. These metrics provide insights into the model's ability to correctly classify individuals with and without diabetes.
 
 ## Conclusion
 
 The "Diabetes Prediction" project offers a practical solution for predicting the likelihood of an individual having diabetes. By leveraging data collection, preprocessing, visualization, SVM modeling, and model evaluation, this project provides a comprehensive approach to addressing the classification task. The project also includes a curated dataset to facilitate seamless exploration and experimentation.
+
+- Here is the link for the streamlit application of the model https://roopdpa.streamlit.app/
